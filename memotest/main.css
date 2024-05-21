@@ -1,0 +1,157 @@
+body {
+    zoom: 75%;
+    background-color: grey;
+    margin: 2%;
+    align-items:center;
+}
+
+#board{
+    padding-left: 14vw;
+    padding-top: 30px;
+    width: 100%;
+}
+
+.interface
+
+#information{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+#red {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#yellow {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#blue {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#green {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#violet {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#orange {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#pink {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#lightblue {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#brown {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#rebeccapurple {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#black {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+#lime {
+    background: grey;
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    border: 5px solid white;
+}
+
+.interface {
+    background-color: grey;
+    color: black;
+    font-size: 110%;
+}
+
+#size {
+    height: 78%;
+    width: 60%;
+}
+
+#back-text{
+font-size: 100%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width: 991px) {
+    #size {
+        height: 85%;
+        width: 100%;
+    }
+
+    #status {
+        height: 85%;
+    }
+
+    #round{
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #back-text{
+        top: 1150px;
+    }
+    #size{
+        height: 8vh;
+    }
+}
